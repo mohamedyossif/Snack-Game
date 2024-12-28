@@ -132,20 +132,24 @@ void Score()
 	}
 
 	cout << "Score==" << score << endl;
+	cout << "W for Up , S for Down , A for Left , D for Right " << endl;
+	cout << "Q for Pause , X for Exist " << endl;
 
 }
 
 int main()
 {
+	
 	Setup();
-
 	while (!Gameover)
 	{
+		
 		Draw();
 		input();
 		logic();
 		Score();
-		Sleep(50);
+		Sleep(100);
+	
 	}
 	system("pause");
 }
