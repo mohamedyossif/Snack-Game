@@ -131,7 +131,7 @@ void Score()
 		Gameover = true;
 	}
 
-	cout << "Score==" << score << endl;
+	cout << "Score : " << score << endl;
 	cout << "W for Up , S for Down , A for Left , D for Right " << endl;
 	cout << "Q for Pause , X for Exist " << endl;
 
